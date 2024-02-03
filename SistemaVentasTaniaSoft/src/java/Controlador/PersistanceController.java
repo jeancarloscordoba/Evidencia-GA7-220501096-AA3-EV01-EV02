@@ -81,7 +81,7 @@ public class PersistanceController implements Serializable {
     }
 
     //Actualizar Cliente (UPDATE)
-    /*public static <T> boolean actualizar(T entidad) {
+    public static <T> boolean actualizar(T entidad) {
         initEM();
         try {
             em.getTransaction().begin();
@@ -96,8 +96,8 @@ public class PersistanceController implements Serializable {
             em.close();
             emf.close();
         }
-    }*/
-    public static <T> void actualizar(T entidad) {
+    }
+    /*public static <T> void actualizar(T entidad) {
         initEM();
         try {
             em.getTransaction().begin();
@@ -111,7 +111,7 @@ public class PersistanceController implements Serializable {
                 emf.close();
             }
         }
-    }
+    }*/
 
 
     /*public static <T> boolean actualizarEntidad(T entidad) {

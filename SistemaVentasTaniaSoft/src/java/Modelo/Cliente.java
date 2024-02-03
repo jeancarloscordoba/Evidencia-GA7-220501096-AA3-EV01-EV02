@@ -39,7 +39,7 @@ public class Cliente implements Serializable{//Esta clase Cliente se utiliza par
         this.dir = dir;
         this.estado = estado;
     }
-
+    
     public int getId() {
         return id;
     }
